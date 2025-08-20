@@ -1,0 +1,15 @@
+Quero desenvolver em C# (.NET 8, console app) um sistema de controle de pedidos para uma lanchonete, aplicando POO e boas práticas. A ideia é a seguinte:
+
+Ter uma classe Produto com propriedades como Nome, Preco (decimal) e Categoria.
+
+Ter uma classe Pedido que armazena uma lista de produtos e calcula o valor total.
+
+O sistema deve permitir adicionar produtos ao pedido.
+
+Se o valor total ultrapassar R$100,00, deve ser aplicado um desconto automático de 10%.
+
+No final, preciso exibir um resumo do pedido, listando os produtos, o valor total sem desconto, o valor do desconto (quando existir) e o valor final.
+
+Quero que você me ajude a estruturar tudo isso de forma clara e organizada, com classes bem definidas, encapsulamento, validações básicas (por exemplo, preço não pode ser negativo), e que o código seja fácil de entender. Também gostaria de sugestões para deixar o programa mais profissional, como boas práticas de formatação de valores (usando CultureInfo("pt-BR")), exemplos de uso no console, e até como eu poderia pensar em testes unitários simples para validar os cálculos.
+
+Explique passo a passo como criar o projeto e traga o código completo e funcional, organizado por arquivos, para que eu possa compilar e rodar direto.
